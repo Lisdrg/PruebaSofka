@@ -1,6 +1,8 @@
 # PruebaSofka
 Proyecto para Prueba Tecnica Sofka Technologies
-Este es un programa que permite el ingreso de dos lineas de dos numeros.
-El primero de ellos representa el tamaño de la impresiòn y el segundo el numero a imprimir
-Se imprime en formato de pantalla LCD por medio de la consola.
-El archivo Prueba hace referencia a la clase prueba en donde se ejecuta el proceso de ingreso de los numeros, el archivo ImpresorNumeros contiene los metodos para la impresion de cada uno de ellos.
+Objetivo: Crear un programa que imprime números en estilo de una pantalla LCD.
+Entrada: La entrada contiene varias líneas. Cada línea contiene 2 números separados por coma. El primer
+número representa el tamaño de la impresión. El segundo número
+es el número a mostrar en la pantalla. Para terminar, se debe digitar 0,0. Esto terminará la aplicación.
+Salida: Imprimir los números especificados usando el carácter “-“ para los caracteres horizontales, y “|” para
+los verticales. Cada dígito debe ocupar exactamente size+2 columnas y 2*size + 3 filas.
